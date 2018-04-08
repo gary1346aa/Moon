@@ -33,7 +33,7 @@ Here is an example MathJax inline rendering \\( 1/x^{2} \\), and here is a block
 \\[ 2b + 3c + 4d + 5e =50 \\] 
 \\[c + 2d + 3e =25 \\] 
 \\[2d + 9e =46 \\] 
-\\[3d +  e &=19 \\]
+\\[3d +  e =19 \\]
 
 The only thing to look out for is the escaping of the backslash when using markdown, so the delimiters become `\\[ ... \\]` and `\\( ... \\)` for inline and block maths respectively.
     
