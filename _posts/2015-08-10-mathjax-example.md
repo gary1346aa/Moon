@@ -34,7 +34,7 @@ Here is an example MathJax inline rendering \\( 1/x^{2} \\), and here is a block
 The only thing to look out for is the escaping of the backslash when using markdown, so the delimiters become `\\[ ... \\]` and `\\( ... \\)` for inline and block maths respectively.
     
 
-\\[
+
 \begin{align*}
   & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
   = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
@@ -49,4 +49,3 @@ The only thing to look out for is the escaping of the backslash when using markd
       y_n
     \end{array} \right)
 \end{align*}
-\\]
